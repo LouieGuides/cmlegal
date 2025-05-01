@@ -20,21 +20,21 @@ export default function Home() {
         <div className="z-10 flex-col gap-4 px-10 md:px-55 ">
           <span className="text-sm md:text-[20px] ">Carmine Mercorella Legal</span>
           <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-          Expertise. Integrity. Commitment.
+            Expertise. Integrity. Commitment.
           </h1>
           <p className="text-lg w-[90%] md:w-[70%] lg:w-[60%] xl:w-[50%] 2xl:w-[75%]">
-          Navigating Australia's immigration system is a profound journey — one that requires trusted guidance, precise expertise, and a steadfast commitment to your future.
+            Navigating Australia&rsquo;s immigration system is a profound journey — one that requires trusted guidance, precise expertise, and a steadfast commitment to your future.
           </p>
           <button className="btn bg-[#f4c55b] mt-10 text-[14px] md:text-lg w-[320] md:w-[400] text-[#000957] border-0">
-          Schedule Confidential Consultation
+            Schedule Confidential Consultation
           </button>
         </div>
       </div>
 
-
       <Visas />
 
-      <Services/>
+      <Services />
+      
       <section className="bg-[#0C0950] text-white py-16">
         <div className="max-w-screen-2xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-8 text-center md:text-left">
           
@@ -44,7 +44,7 @@ export default function Home() {
               Ready to Start Your Australian Journey?
             </h2>
             <p className="text-lg text-white/90">
-              Whether it’s migration, sponsorship, or legal guidance, we’re here to help you every step of the way.
+              Whether it&rsquo;s migration, sponsorship, or legal guidance, we&rsquo;re here to help you every step of the way.
             </p>
           </div>
 
@@ -60,13 +60,10 @@ export default function Home() {
           
         </div>
       </section>
-      
-      <AboutUs/>
 
-      <WhyChooseUs/>
-
-      <Testimonials/>
-
+      <AboutUs />
+      <WhyChooseUs />
+      <Testimonials />
     </>
   );
 }
