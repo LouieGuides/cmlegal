@@ -1,9 +1,7 @@
+/* eslint-disable @next/next/no-img-element */
 'use client';
 
-import { BadgeCheck, ShieldCheck, Users } from 'lucide-react';
-import Image from 'next/image';
-import { Scale } from 'lucide-react';
-import { Mail } from 'lucide-react';
+import { BadgeCheck, ShieldCheck, Users, Scale, Mail } from 'lucide-react';
 
 export default function AboutPage() {
   return (
@@ -11,12 +9,11 @@ export default function AboutPage() {
 
       {/* Hero Section */}
       <section className="relative h-[400px] w-full">
-        <Image
+        <img
           src="/images/cmlegal-background-3.png"
           alt="Carmine Mercorella Legal"
-          fill
-          className="object-cover"
-          priority
+          className="absolute inset-0 w-full h-full object-cover"
+          loading="eager"
         />
         <div className="absolute inset-0 bg-[#0c0950]/70 flex items-center justify-center">
           <div className="text-center px-4">
@@ -27,6 +24,7 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
 
       {/* Main Content */}
       <div className="max-w-6xl mx-auto px-6 py-16 space-y-20">
