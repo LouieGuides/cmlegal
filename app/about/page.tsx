@@ -77,7 +77,7 @@ export default function AboutPage() {
             <li className="flex items-start gap-3">
               <BadgeCheck className="mt-1 w-6 h-6 text-green-600" />
               <span>
-                <strong>Client Commitment:</strong> Our clients' success is our priority. We listen, we advocate, and we deliver.
+                <strong>Client Commitment:</strong> Our clients&rsquo; success is our priority. We listen, we advocate, and we deliver.
               </span>
             </li>
           </ul>
@@ -90,7 +90,7 @@ export default function AboutPage() {
             <h2 className="text-2xl font-semibold text-[#161179]">Meet Carmine Mercorella</h2>
           </div>
           <p className="text-gray-700 text-lg leading-relaxed">
-            With over 20 years' experience navigating Australia's complex migration landscape, Carmine Mercorella combines technical excellence with a genuine passion for helping people achieve their migration goals.
+            With over 20 years&rsquo; experience navigating Australia&rsquo;s complex migration landscape, Carmine Mercorella combines technical excellence with a genuine passion for helping people achieve their migration goals.
           </p>
           <p className="mt-4 text-gray-700 text-lg leading-relaxed">
             His reputation for integrity, strategic thinking, and client care has made him a trusted advisor to individuals and businesses across Australia.
