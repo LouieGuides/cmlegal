@@ -70,7 +70,8 @@ export default function WhyChooseUs() {
                 src="/images/cmlegal-background-6.png"
                 alt="Background"
                 className="absolute inset-0 w-full h-full object-cover z-0"
-                loading="lazy"
+                loading="eager"
+                fetchPriority="high"
             />
 
             {/* Black Overlay */}
