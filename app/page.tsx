@@ -20,7 +20,7 @@ export default function Home() {
         <div className="z-10 flex-col gap-4 px-10 md:px-55 ">
           <span className="text-sm md:text-[20px] ">Carmine Mercorella Legal</span>
           <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-            Expertise. Integrity. Commitment...
+            Expertise. Integrity. Commitment
           </h1>
           <p className="text-lg w-[90%] md:w-[70%] lg:w-[60%] xl:w-[50%] 2xl:w-[75%]">
             Navigating Australia&rsquo;s immigration system is a profound journey — one that requires trusted guidance, precise expertise, and a steadfast commitment to your future.

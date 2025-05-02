@@ -1,5 +1,4 @@
-'use client'; // needed if you're using Next.js App Router
-
+'use client';
 import { useEffect, useState } from 'react';
 import { FaArrowUp } from 'react-icons/fa';
 

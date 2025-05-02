@@ -69,6 +69,7 @@ export default function Visas() {
               className="w-full h-full object-cover m-0 p-0 rounded-none"
               alt={card.title}
               loading="lazy"
+              fetchPriority="high"
             />
 
             <div className="absolute bottom-0 left-0 bg-black/60 text-white px-4 py-2 text-base md:text-lg font-semibold z-10">
