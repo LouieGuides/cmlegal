@@ -26,8 +26,9 @@ export default function Header() {
               <div className="drawer-side fixed z-[999]">
                 <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
                 <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
-                  <li><a>Sidebar Item 1</a></li>
-                  <li><a>Sidebar Item 2</a></li>
+                  <li><Link href="/about/">About Us</Link></li>
+                  <li><Link href="/services/">Services</Link></li>
+                  <li><a>Latest News</a></li>
                 </ul>
               </div>
             </div>
