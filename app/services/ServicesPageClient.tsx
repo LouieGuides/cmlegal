@@ -1,6 +1,5 @@
 'use client';
 
-import Services from '@/components/Services';
 import { Button } from '@/components/ui/Button';
 import Visas from '@/components/Visas';
 import Link from 'next/link';
