@@ -71,7 +71,7 @@ export default function Testimonials() {
           {testimonials.map((t, index) => (
             <SwiperSlide key={index}>
               <div
-                className="bg-white border border-gray-200 rounded-xl shadow-md p-6 text-left hover:shadow-xl transition duration-300 h-full flex flex-col justify-between"
+                className="bg-white border border-gray-200 rounded-xl shadow-md p-6 text-left shadow-sm transition-all duration-300 hover:bg-[#0C0950] hover:text-white transition duration-300 h-full flex flex-col justify-between"
                 data-aos="fade-up"
                 data-aos-delay={index * 150}
               >

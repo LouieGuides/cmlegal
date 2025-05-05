@@ -67,7 +67,7 @@ export default function Header() {
             <div className="hidden md:flex">
               <ul className="menu menu-horizontal px-1">
                 <li><Link href="/about/">About</Link></li>
-                <li><a>Success Stories</a></li>
+                <li><Link href="/services/">Services</Link></li>
                 <li><a>Latest News</a></li>
               </ul>
             </div>
