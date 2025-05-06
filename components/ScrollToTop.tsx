@@ -21,8 +21,8 @@ export default function ScrollToTop() {
   return (
     <button
       onClick={scrollToTop}
-      className={`fixed bottom-6 right-6 z-50 p-3 rounded-full text-black shadow-lg transition-opacity duration-300 ${
-        isVisible ? 'opacity-100 bg-[#FFEB00] border-black shadow-amber-300' : 'opacity-0 pointer-events-none'
+      className={`fixed bottom-6 right-6 z-50 p-3 rounded-full text-black transition-opacity duration-300 ${
+        isVisible ? 'opacity-100 bg-[#FFEB00] border-black' : 'opacity-0 pointer-events-none'
       }`}
       aria-label="Scroll to top"
     >

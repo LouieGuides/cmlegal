@@ -41,7 +41,7 @@ export default function Services() {
             {
                 title: "Partner Visa Assistance",
                 description: "We guide you through the process of reuniting with your partner in Australia.",
-                href: "/partner-visa",
+                href: "/visa/partner-visa",
                 label: "Apply for a Partner Visa"
             },
             {

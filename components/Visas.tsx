@@ -28,7 +28,7 @@ export default function Visas() {
       src: "/images/Partner-Visa.jpg",
       title: "Partner Visa",
       desc: "Live in Australia with your spouse or de facto partner.",
-      link: "/partner-visa",
+      link: "/visa/partner-visa",
     },
     {
       src: "/images/Skilled-Working-Visa.jpg",
