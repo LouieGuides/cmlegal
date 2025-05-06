@@ -23,7 +23,7 @@ export default function Visas() {
       src: '/images/Family-Visa.jpg',
       title: 'Family & Parents',
       desc: "Reunite with loved ones through Australia's family sponsorship options.",
-      link: '/family-visa',
+      link: '/visa/family-visa',
     },
     {
       src: '/images/Partner-Visa.jpg',
@@ -35,19 +35,19 @@ export default function Visas() {
       src: '/images/Skilled-Working-Visa.jpg',
       title: 'Skilled Visa',
       desc: 'Migrate to Australia with in-demand skills and build your career.',
-      link: '/skilled-visa',
+      link: '/visa/skilled-visa',
     },
     {
       src: '/images/Sponsored-Visa.jpg',
       title: 'Sponsored Visa',
       desc: 'Get sponsored by an Australian employer or state government.',
-      link: '/sponsored-visa',
+      link: '/visa/sponsored-visa',
     },
     {
       src: '/images/Visa-Appeal.jpg',
       title: 'Visa Appeal',
       desc: 'Need help with a rejected visa? Our experts can assist.',
-      link: '/visa-appeal',
+      link: '/visa/appeal',
       defaultActive: true,
     },
   ];

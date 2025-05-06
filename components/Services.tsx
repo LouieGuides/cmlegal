@@ -35,7 +35,7 @@ export default function Services() {
             {
                 title: "Visa Appeal Support",
                 description: "Get expert help to challenge and appeal your visa refusal decisions effectively.",
-                href: "/visa-appeal",
+                href: "/visa/appeal",
                 label: "Appeal Your Visa Decision"
             },
             {
@@ -47,25 +47,25 @@ export default function Services() {
             {
                 title: "Skilled Visa Pathways",
                 description: "Explore your eligibility and apply for skilled migration to boost your career.",
-                href: "/skilled-visas",
+                href: "/visa/skilled-visa",
                 label: "Start Your Skilled Visa Application"
             },
             {
                 title: "State Nomination",
                 description: "Secure nomination from Australian states for Subclass 190 or 491 visas.",
-                href: "/state-nomination",
+                href: "/visa/state-nomination",
                 label: "Check State Nomination Options"
             },
             {
                 title: "Business Visa Support",
                 description: "Start or invest in a business in Australia with our visa advisory services.",
-                href: "/business-visa",
+                href: "/visa/business-visa",
                 label: "Talk to a Business Visa Advisor"
             },
             {
                 title: "Student Visa Guidance",
                 description: "Apply for your student visa and get support for enrollment and compliance.",
-                href: "/student-visa",
+                href: "/visa/student-visa",
                 label: "Get Help with a Student Visa"
             }
             ].map((service, index) => (
