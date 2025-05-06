@@ -3,10 +3,19 @@ import Services from "@/components/Services";
 import Testimonials from "@/components/Testimonials";
 import Visas from "@/components/Visas";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <link
+          rel='preload'
+          as='image'
+          href='/images/cmlegal-background-6.png'
+          fetchPriority='high'
+        />
+      </Head>
       <div
         className="relative min-h-[50vh] flex items-center text-white bg-[#050C9C] md:bg-none bg-cover bg-center bg-no-repeat"
         style={{

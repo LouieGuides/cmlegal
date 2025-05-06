@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-export default function PartnerVisaPage() {
+export default function PartnerVisaClient() {
   return (
     <div className="max-w-5xl mx-auto px-4 py-10 text-black">
       <h1 className="text-4xl font-bold text-primary mb-6">Partner Visas in Australia</h1>
@@ -134,14 +134,6 @@ export default function PartnerVisaPage() {
         <li>Preparing and lodging all forms</li>
         <li>Legal representation throughout the process</li>
         <li>Help with complex cases or exemptions</li>
-      </ul>
-
-      <p className="mt-6">✅ <strong>Book a Consultation</strong></p>
-      <p className="mb-4">Partner visa applications are detailed and time-sensitive. Let our experienced legal team assist you in securing your future in Australia.</p>
-      <ul className="mb-10">
-        <li>📞 <strong>Phone:</strong> [Insert Contact Number]</li>
-        <li>📧 <strong>Email:</strong> [Insert Email Address]</li>
-        <li>🌐 <strong>Website:</strong> [Insert Website URL]</li>
       </ul>
 
       <h2 className="text-2xl font-semibold mb-4">Frequently Asked Questions (FAQs)</h2>
