@@ -57,10 +57,10 @@ export default function Services() {
                 label: "Check State Nomination Options"
             },
             {
-                title: "Business Visa Support",
-                description: "Start or invest in a business in Australia with our visa advisory services.",
-                href: "/visa/business-visa",
-                label: "Talk to a Business Visa Advisor"
+                title: "Family Visa Support",
+                description: "Bring your family to Australia with our expert support for partner, child, and parent visa applications.",
+                href: "/visa/family-visa",
+                label: "Talk to a Family Visa Advisor"
             },
             {
                 title: "Student Visa Guidance",
