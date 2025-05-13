@@ -89,9 +89,9 @@ export default function Header() {
       <div className="w-full bg-[#161179] text-primary-content">
         <div className="max-w-screen-2xl mx-auto flex h-12 items-center justify-end px-4">
           <ul className="menu menu-horizontal px-1">
-            <li><Link href="/visa/appeal/">Visa Appeal</Link></li>
-            <li><Link href="/visa/lodged/">Visa Lodged</Link></li>
-            <li><Link href="/state-nominations/">State Nominations</Link></li>
+            <li><Link href="/visa/appeal">Visa Appeal</Link></li>
+            <li><Link href="/visa/lodged">Visa Lodged</Link></li>
+            <li><Link href="/visa/state-nomination">State Nominations</Link></li>
           </ul>
         </div>
       </div>

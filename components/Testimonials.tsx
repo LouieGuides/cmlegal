@@ -71,11 +71,11 @@ export default function Testimonials() {
           {testimonials.map((t, index) => (
             <SwiperSlide key={index}>
               <div
-                className="bg-white border border-gray-200 rounded-xl shadow-md p-6 text-left shadow-sm transition-all duration-300 hover:bg-[#0C0950] hover:text-white transition duration-300 h-full flex flex-col justify-between"
+                className="bg-white border border-gray-200 rounded-xl shadow-md p-6 text-left transition-all duration-300 hover:bg-[#0C0950] hover:text-white text-[#0C0950] h-full flex flex-col justify-between"
                 data-aos="fade-up"
                 data-aos-delay={index * 150}
               >
-                <p className="text-gray-700 mb-4 italic">“{t.text}”</p>
+                <p className="mb-4 italic">“{t.text}”</p>
                 <div className="flex gap-1 mb-2">
                   {[...Array(t.rating)].map((_, i) => (
                     <svg key={i} className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
@@ -84,8 +84,8 @@ export default function Testimonials() {
                   ))}
                 </div>
                 <div className="mt-2">
-                  <h4 className="text-lg font-semibold text-[#0C0950]">{t.name}</h4>
-                  <span className="text-sm text-gray-500">{t.title}</span>
+                  <h4 className="text-lg font-semibold">{t.name}</h4>
+                  <span className="text-sm">{t.title}</span>
                 </div>
               </div>
             </SwiperSlide>

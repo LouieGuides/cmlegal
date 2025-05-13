@@ -94,7 +94,7 @@ export default function Visas() {
                 href={card.link}
                 className='underline text-blue-200 hover:text-blue-400 text-sm md:text-base'
               >
-                Learn More
+                Learn More About {card.title}
               </a>
             </div>
           </div>
